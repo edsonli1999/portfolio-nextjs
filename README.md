@@ -1,7 +1,7 @@
-# TechStack
+## TechStack
 NextJS, TailwindCSS, ESLint
 
-#Credits
+## Credits
 Sonny's youtube video (https://www.youtube.com/watch?v=urgi2iz9P6U) has helped me extremely on the development and process of this personal portfolio
 Sonny's github (https://github.com/PapaReact)
 

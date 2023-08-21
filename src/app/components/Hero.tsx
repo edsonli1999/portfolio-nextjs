@@ -14,9 +14,9 @@ function Hero({}: Props) {
   //useEffect thing from the typewriter library
   const [text, count] = useTypewriter({
     words: ["Hi, my name's Edson", 
-    "Guy-who-boulders.tsx", 
+    "Loves-bouldering.tsx", 
     "<ButLovesToCodeMore/>",
-    "allegedly;"],
+    "Allegedly;"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -39,12 +39,12 @@ function Hero({}: Props) {
           <Cursor cursorColor='#1e95aa'/>
         </h1>
 
-        <div className='pt-5'>
+        {/* <div className='pt-5'>
           <Link href='#about'><button className='heroButton'>About </button></Link>
           <Link href='#experience'><button className='heroButton'>Experience </button></Link>
           <Link href='#skills'><button className='heroButton'>Skills </button></Link>
           <Link href='#projects'><button className='heroButton'>Projects </button></Link>
-        </div>
+        </div> */}
       </div>
       
     </div>

@@ -3,6 +3,7 @@ NextJS, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
 
 ## Deployable version 1
 Pushed on 21/08/2023. Features hero section, animations, links, and contact me page (scroll down).
+https://vercel.com/edsonli1999/portfolio-nextjs-yarn/HwZnsAEoXiW9TM9SEewnXhWUHPXK****
 
 ## Credits
 Sonny's youtube video (https://www.youtube.com/watch?v=urgi2iz9P6U) has helped me extremely on the development and process of this personal portfolio. Sonny's github (https://github.com/PapaReact)

@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import ContactMe from './components/ContactMe'
+import About from './components/About'
 
 // Note: 
 // 1. Sonny uses nextjs version (12.3.0) as opposed to my nextjs version (13.4.12) 
@@ -32,6 +33,9 @@ export default function Home() {
       </section>
 
       {/* About */}
+      <section id='about' className='snap-center'>
+        <About/>
+      </section>
 
       {/* Experience */}
 

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ContactMe from './components/ContactMe'
 import About from './components/About'
+import WorkExperience from './components/WorkExperience'
 
 // Note: 
 // 1. Sonny uses nextjs version (12.3.0) as opposed to my nextjs version (13.4.12) 
@@ -24,7 +25,6 @@ export default function Home() {
     overflow-scroll z-0">
       
       {/* Head moved to title, as per new nextjs version */}
-
       <Header/>
 
       {/* To make snap work, need to make parent snap mandatory */}
@@ -32,12 +32,14 @@ export default function Home() {
         <Hero/>
       </section>
 
-      {/* About */}
       <section id='about' className='snap-center'>
         <About/>
       </section>
 
       {/* Experience */}
+      <section id='experience' className='snap-center'>
+        <WorkExperience/>
+      </section>
 
       {/* Skills */}
 

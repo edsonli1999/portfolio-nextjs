@@ -25,8 +25,7 @@ function About({}: Props) {
         whileInView={{ opacity: 1,  x: 0}}
         viewport={{ once: true}}
         src='/Formal wear house party zoomed.jpg'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-        md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-94 xl:w-[400px] xl:h-[400px]'
       />
 
       <div className='space-y-10 px-0 md:px-10'>
@@ -37,7 +36,11 @@ function About({}: Props) {
         </h4>
         
         <p className='text-base'>
-          -- Background info about myself --
+          My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in 2022, and since then I have finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-led projects as an alumni, and working casually as a bartender. I have been doing bouldering as personal hobby for 6 years now, and enjoy grabbing a cheeky pint with my mates at the pub. I have also been exploring Scotch Whiskey a lot recently, given my exposure to it whilst working at a cocktail bar, The Blacksmith, based in Richmond. Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
+        </p>
+
+        <p className='text-base'> 
+          My favourite languages are Python and Java, although every language has pros and cons honestly.
         </p>
 
       </div>

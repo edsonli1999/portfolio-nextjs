@@ -19,9 +19,10 @@ function WorkExperience({}: Props) {
         Experience 
       </h3>
       <br></br>
-      <div className='h-3/4 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+      <div className='h-3/4 w-full flex justify-center space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
         <ExperienceCardTE/>
-        <ExperienceCardShitimes/>
+        {/* Probably put projects in another section */}
+        {/* <ExperienceCardShitimes/> */}
       </div>
     
     </motion.div>

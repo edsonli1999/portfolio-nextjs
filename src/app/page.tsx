@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import ContactMe from './components/ContactMe'
 import About from './components/About'
 import WorkExperience from './components/WorkExperience'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 // Note: 
 // 1. Sonny uses nextjs version (12.3.0) as opposed to my nextjs version (13.4.12) 
@@ -36,17 +38,20 @@ export default function Home() {
         <About/>
       </section>
 
-      {/* Experience */}
+      {/* Projects */}
+      <section id='projects' className='snap-start'>
+        <Projects/>
+      </section>
+
       <section id='experience' className='snap-center'>
         <WorkExperience/>
       </section>
 
-      {/* Skills */}
+      {/* <section id='skills' className='snap-start'>
+        <Skills/>
+      </section> */}
 
-      {/* Projects */}
-
-      {/* Contact Me */}
-      <section id="contact" className='snap-start'> 
+      <section id="contact" className='snap-center'> 
         <ContactMe/>
       </section>
       

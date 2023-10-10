@@ -36,11 +36,15 @@ function About({}: Props) {
         </h4>
         
         <p className='text-base'>
-          My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in 2022, and since then I have finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-led projects as an alumni, and working casually as a bartender. I have been doing bouldering as personal hobby for 6 years now, and enjoy grabbing a cheeky pint with my mates at the pub. I have also been exploring Scotch Whiskey a lot recently, given my exposure to it whilst working at a cocktail bar, The Blacksmith, based in Richmond. Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
+          My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in 2022, and since then I have finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-led projects as an alumni, and working casually as a bartender.  Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
         </p>
 
         <p className='text-base'> 
-          My favourite languages are Python and Java, although every language has pros and cons honestly.
+          I have been doing bouldering as personal hobby for 6 years now, and enjoy grabbing a cheeky pint with my mates at the pub. I have also been exploring Scotch Whiskey a lot recently, given my exposure to it whilst working at a cocktail bar, The Blacksmith, based in Richmond.
+        </p>
+
+        <p className='text-base'> 
+          My favourite languages are Python and Java, although honestly every language has its pros and cons.
         </p>
 
       </div>

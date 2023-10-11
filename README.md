@@ -5,7 +5,8 @@ NextJS, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
 Deployed website is now on the main production website (https://portfolio-nextjs-yarn.vercel.app/), instead of a branch.  
 Changes/features added:
 - About, Projects, and Experience sections.  
-- Added quick link to contact page, and some other minor phrasing changes.  
+- Added quick link to contact page, and some other minor phrasing changes.
+(for personal use) Vercel inspection: https://vercel.com/edsonli1999/portfolio-nextjs-yarn/2JJeKq9PBtowgrgtrdCyX6J6rvXM
 
 ## Deployable v1
 Features: 

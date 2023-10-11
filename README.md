@@ -6,7 +6,7 @@ Changes/features added:
 - About, Projects, and Experience sections.  
 - Added quick link to contact page, and some other minor phrasing changes.  
   
-(For personal use) Vercel inspection: https://vercel.com/edsonli1999/portfolio-nextjs-yarn/2JJeKq9PBtowgrgtrdCyX6J6rvXM  
+(For personal use) Vercel inspection: https://vercel.com/edsonli1999/portfolio-nextjs-yarn/2JJeKq9PBtowgrgtrdCyX6J6rvXM.  
 Note: Not exactly compatible with smaller screens yet (such as mobile devices)
 
 ## Deployable v1

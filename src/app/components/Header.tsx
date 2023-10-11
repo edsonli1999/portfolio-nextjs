@@ -20,11 +20,13 @@ function Header({}: Props) {
           url="https://www.linkedin.com/in/edson-li-387i/" 
           fgColor='gray' 
           bgColor='transparent'
+          target='_blank'
         />
         <SocialIcon 
           url="https://github.com/edsonli1999" 
           fgColor='gray' 
           bgColor='transparent'
+          target='_blank'
         />
       </motion.div>
 

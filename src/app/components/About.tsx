@@ -10,8 +10,7 @@ function About({}: Props) {
       initial={{ opacity:0 }}
       whileInView={{ opacity:1 }}
       transition={{ duration:1.5 }}
-      className='flex flex-col relative h-screen text-center 
-      md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+      className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'> About </h3>
     
       <motion.img
@@ -36,11 +35,11 @@ function About({}: Props) {
         </h4>
         
         <p className='text-base'>
-          My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in 2022, and since then I have finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-led projects as an alumni, and working casually as a bartender.  Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
+          My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in 2022, and since then I have finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-funded projects as an alumni, and working casually as a bartender.  Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
         </p>
 
         <p className='text-base'> 
-          I have been doing bouldering as personal hobby for 6 years now, and enjoy grabbing a cheeky pint with my mates at the pub. I have also been exploring Scotch Whiskey a lot recently, given my exposure to it whilst working at a cocktail bar, The Blacksmith, based in Richmond.
+          I have been doing bouldering as personal hobby for 6 years now, and enjoy grabbing a cheeky pint with my mates at the pub. I have also been exploring Scotch Whiskey a lot recently, given my exposure to it whilst bartending at a cocktail bar, The Blacksmith, based in Richmond.
         </p>
 
         <p className='text-base'> 

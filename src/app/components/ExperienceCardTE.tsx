@@ -8,13 +8,13 @@ type Props = {}
 
 function ExperienceCardTE({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll z-10'>
       <Link href='https://toppanecquaria.com/' target='_blank'>
         <motion.img
           initial={{ y:-100, opacity:0 }}
           whileInView={{ opacity:1, y:0 }}
           viewport={{ once:true }}
-          className='w-32 h-32 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center'
+          className='w-28 h-28 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center'
           src='https://media.licdn.com/dms/image/C4D0BAQESt_exT_o-wQ/company-logo_200_200/0/1655362761377?e=1704326400&v=beta&t=4DZUmY5SrJVRIjc-KTsr2WxfjBV7syshZduM4DV2H9o'
         />
       </Link>

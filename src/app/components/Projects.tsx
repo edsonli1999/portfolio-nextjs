@@ -19,19 +19,16 @@ function Projects({}: Props) {
         Click
       </h3> */}
 
-      <div className='h-5/6 relative w-full flex overflow-x-scroll snap-x snap mandatory z-20 overflow-y-scroll'>
+      <article className='h-3/4 relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 overflow-y-scroll'>
         {/*  */}
         {projects.map((project, i) => (
           // eslint-disable-next-line react/jsx-key
-          <div className='flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-28 md:p-32 w-screen'>
+          <div className='h-3/4 flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-28 md:p-32 w-screen'>
             {/* flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-28 md:p-32 w-screen */}
             <motion.img
               className='w-[250px] h-[250px] rounded-full object-cover object-center'
               // xl:w-[150px] xl:h-[150px]
-              initial={{
-                y:-300,
-                opacity:0,
-              }}
+              initial={{ y:-300, opacity:0 }}
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y:0 }}
               viewport={{ once: true }}
@@ -58,9 +55,9 @@ function Projects({}: Props) {
 
           </div>
         ))}
-      </div>
+      </article>
     
-    <div className='w-full absolute top-[30%] bg-[#1e95aa]/10 left-0 h-[500px] -skew-y-12' />
+    <div className='w-full absolute top-[30%] bg-[#1e95aa]/10 left-0 h-[500px] -skew-y-12 z-0' />
   </motion.div>
   )
 }

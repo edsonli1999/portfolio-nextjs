@@ -3,11 +3,13 @@ NextJS, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
 
 ## Deployable v2
 Deployed website is now on the main production website (https://portfolio-nextjs-yarn.vercel.app/), instead of a branch.  
-Features added: About, Projects, and Experience Section.  
-Added quick link to contact page, and some other minor phrasing changes.  
+Changes/features added:
+- About, Projects, and Experience sections.  
+- Added quick link to contact page, and some other minor phrasing changes.  
 
 ## Deployable v1
-Features: Hero (homepage), animations, links, and contact me page (scroll down).  
+Features: 
+- Hero (homepage), animations, links, and contact me page (scroll down).  
 
 ## Credits
 Sonny's youtube video (https://www.youtube.com/watch?v=urgi2iz9P6U) has helped me extremely on the development and process of this personal portfolio. Sonny's github (https://github.com/PapaReact)

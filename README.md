@@ -9,6 +9,7 @@ Changes/features added:
 (For personal use) Vercel inspection: https://vercel.com/edsonli1999/portfolio-nextjs-yarn/2JJeKq9PBtowgrgtrdCyX6J6rvXM
 
 ## Deployable v1
+Old version of the website: https://portfolio-nextjs-yarn-j8vitldg6-edsonli1999.vercel.app/
 Features: 
 - Hero (homepage), animations, links, and contact me page (scroll down).  
 

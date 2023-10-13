@@ -25,7 +25,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory 
-    overflow-scroll z-0">
+    overflow-scroll z-0 scrollbar">
+      {/* scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#1e95aa]/50 */}
       
       {/* Head moved to title, as per new nextjs version */}
       <Header/>
@@ -40,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id='projects' className='snap-start'>
+      <section id='projects' className='snap-start '>
         <Projects_1/>
         {/* <Projects/> */}
       </section>

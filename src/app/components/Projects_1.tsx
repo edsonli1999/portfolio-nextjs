@@ -20,7 +20,8 @@ function Projects_1({}: Props) {
         Projects 
       </h3>
       <br></br>
-      <div className='h-3/4 w-screen flex justify-start space-x-5 overflow-x-scroll py-12 p-10 snap-x snap-mandatory z-10'>
+      <div className='h-3/4 w-screen flex justify-start space-x-5 overflow-x-scroll py-12 p-10 snap-x snap-mandatory z-10 scrollbar'>
+        {/*  scrollbar-track-gray-400/20 scrollbar-thumb-[#1e95aa]/50 */}
         <div className='h-full w-screen flex justify-start space-x-5 z-10'>
           <ProjectUTimes/>
         </div>

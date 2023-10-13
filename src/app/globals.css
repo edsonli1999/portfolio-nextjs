@@ -40,3 +40,32 @@ body {
      hover:border-[#1e95aa]/20
   }
 }
+
+@layer utilities{
+
+  /* Sonny's styling */
+  .scrollbar::-webkit-scrollbar-track {
+    --scrollbar-track: rgb(156 163 175 / 0.2)
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    --scrollbar-thumb: rgb(30 149 170 / 0.4)
+  }
+  
+  /* ios-like styling */
+  /* .scrollbar::-webkit-scrollbar {
+    background-color: rgb(156 163 175 / 0.2);
+    width: 16px;  
+  } */
+  
+  /* .scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(30 149 170 / 0.4);
+    border-radius: 16px;
+    border: 4px solid rgb(156 163 175 / 0.2);
+  }
+
+  .scrollbar::-webkit-scrollbar-button {
+    display:none;
+  } */
+
+}

@@ -1,6 +1,13 @@
 ## Full TechStack
 NextJS, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
 
+## Deployable v3
+Changes/features added:
+- Shifted experience section above projects section
+- Added in experience at U-SWS
+- Updated About section
+- Other small bug fixes, file structure change
+
 ## Deployable v2
 Changes/features added:
 - About, Projects, and Experience sections.  

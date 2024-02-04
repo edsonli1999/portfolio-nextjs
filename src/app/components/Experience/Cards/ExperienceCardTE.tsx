@@ -15,7 +15,7 @@ function ExperienceCardTE({}: Props) {
           whileInView={{ opacity:1, y:0 }}
           viewport={{ once:true }}
           className='w-28 h-28 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center'
-          src='https://media.licdn.com/dms/image/C4D0BAQESt_exT_o-wQ/company-logo_200_200/0/1655362761377?e=1704326400&v=beta&t=4DZUmY5SrJVRIjc-KTsr2WxfjBV7syshZduM4DV2H9o'
+          src='https://scontent.fmel14-2.fna.fbcdn.net/v/t1.6435-9/162133114_221420249770179_7666813358493437186_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_ohc=_Y9Unbr6kMMAX9rfbTf&_nc_ht=scontent.fmel14-2.fna&oh=00_AfDTWVib90IoowxbOcat0YTL85-3IW9E45vVM5O2wqRu8g&oe=65E683FF'
         />
       </Link>
       

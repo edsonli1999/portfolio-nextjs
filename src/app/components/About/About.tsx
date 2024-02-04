@@ -36,7 +36,7 @@ function About({}: Props) {
         </h4>
         
         <div className='flex'> 
-          <MdChevronLeft size={300}/>
+          {/* <MdChevronLeft size={300}/> */}
           <div id='page1' className='space-y-10 px-0 md:px-10'> 
             <p className='text-base'>
               My name&apos;s Edson, and I am a fresh Computer Science graduate based in Melbourne. I graduated from the University of Melbourne in November 2022, and have since then finished an internship as a software developer intern in Singapore. I have also been working on personal projects, helping out with university-funded projects as an alumni, and working casually as a bartender.  Oh, and I was also a sergeant in the Singapore Army for 2 years, as part of their conscripted national service.
@@ -50,7 +50,7 @@ function About({}: Props) {
               My favourite languages currently are Python and Java, although honestly every language has its pros and cons.
             </p>
           </div>
-          <MdChevronRight size={300}/>
+          {/* <MdChevronRight size={300}/> */}
         </div>
       </div>
         

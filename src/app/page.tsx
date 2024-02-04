@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import { Metadata } from 'next'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import ContactMe from './components/ContactMe'
-import About from './components/About'
-import WorkExperience from './components/WorkExperience'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Projects_1 from './components/Projects_1'
+import Header from './components/NavBar/Header'
+import Hero from './components/Hero/Hero'
+import ContactMe from './components/Contact/ContactMe'
+import About from './components/About/About'
+import WorkExperience from './components/Experience/WorkExperience'
+import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import Projects_1 from './components/Projects/Projects_1'
 
 // Note: 
 // 1. Sonny uses nextjs version (12.3.0) as opposed to my nextjs version (13.4.12) 

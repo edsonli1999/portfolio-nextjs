@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
 import { motion} from 'framer-motion'
-import ExperienceCard from './ExperienceCardTE'
-import ExperienceCardTE from './ExperienceCardTE'
-import ExperienceCardShitimes from './ExperienceCardShitimes'
+import ExperienceCard from './Cards/ExperienceCardTE'
+import ExperienceCardTE from './Cards/ExperienceCardTE'
+import ExperienceCardShitimes from './Cards/ExperienceCardShitimes'
 
 
 type Props = {}

@@ -22,7 +22,7 @@ function ProjectUTimes({}: Props) {
       
       <div className='px-0 md:px-10'>
         <h4 className='text-2xl md:text-3xl lg:text-3xl font-semibold text-center'> 
-          <span className='underline decoration-[#1e95aa]/50'> Project 1:</span> Utility-times 
+          <span className='underline decoration-[#1e95aa]/50'> Utility-times </span>  
         </h4>
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="https://shitimes.vercel.app/login" target='_blank'>Link to website</a></p>
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="https://github.com/IkePureza/utime" target='_blank'>Link to github</a></p>

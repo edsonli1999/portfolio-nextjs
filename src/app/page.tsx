@@ -40,14 +40,12 @@ export default function Home() {
         <About/>
       </section>
 
-      {/* Projects */}
-      <section id='projects' className='snap-start '>
-        <Projects_1/>
-        {/* <Projects/> */}
-      </section>
-
       <section id='experience' className='snap-center'>
         <WorkExperience/>
+      </section>
+
+      <section id='projects' className='snap-start '>
+        <Projects_1/>
       </section>
 
       {/* <section id='skills' className='snap-start'>

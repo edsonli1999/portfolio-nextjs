@@ -21,7 +21,7 @@ function ProjectsPersonalWebsite({}: Props) {
       
       <div className='px-0 md:px-10'>
         <h4 className='text-2xl md:text-3xl lg:text-3xl font-semibold text-center'> 
-          <span className='underline decoration-[#1e95aa]/50'> Project 2:</span> Personal portfolio website 
+          <span className='underline decoration-[#1e95aa]/50'> Personal portfolio website </span>  
         </h4>
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="#hero">Link to website</a></p>
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="https://github.com/edsonli1999/portfolio-nextjs" target='_blank'>Link to github</a></p>

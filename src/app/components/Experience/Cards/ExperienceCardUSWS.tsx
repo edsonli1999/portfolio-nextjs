@@ -59,7 +59,7 @@ function ExperienceCardUSWS({ }: Props) {
         <ul className='list-disc space-y-4 ml-5 text-md text-white'>
           <li> Developed and supported the services provided by the company, including updating source code, developing app pages to support multiple clients’ needs, as well as performing API calls to create/read/update/delete various datasets within multiple services. </li>
           <li> Technology used: Full stack (JS, TS, HTML, CSS), Rest API Calls (JS, VB.NET), dev workflow (Azure Devops, Git) </li>
-          <li> Reference: Andrew Rigby (andrew.rigby@u-sws.com, 410 469 329)</li>
+          <li> Reference: Andrew Rigby (andrew.rigby@u-sws.com, 0410 469 329), Vishal Maru (vishal.maru@u-sws.com, 0405 242 694) </li>
         </ul>
 
         <div className='py-5'>

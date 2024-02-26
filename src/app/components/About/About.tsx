@@ -47,7 +47,7 @@ function About({ }: Props) {
             </p>
 
             <p className='text-base'>
-              I believe that in any situation, being presentable and likeable is one of the most important things in life. I would love to showcase my ability to make an impression through an interview, if you'll have me. 
+              I believe that in any situation, being presentable and likeable is one of the most important things in life. I would love to showcase my ability to make an impression through an interview, if you&apos;ll have me. 
             </p>
 
             {/* <p className='text-base'> 

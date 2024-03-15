@@ -24,7 +24,7 @@ Features:
 ## Credits
 Sonny's youtube video (https://www.youtube.com/watch?v=urgi2iz9P6U) has helped me extremely on the development and process of this personal portfolio. Sonny's github (https://github.com/PapaReact)
 
-## Getting Started
+## CLI Commands
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
@@ -32,10 +32,4 @@ First, run the development server:
 ```bash
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 

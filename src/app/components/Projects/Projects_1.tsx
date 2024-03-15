@@ -7,6 +7,7 @@ import ExperienceCardShitimes from '../Experience/Cards/ExperienceCardShitimes'
 import ProjectUTimes from './Cards/ProjectsUTimes'
 import ProjectsPersonalWebsite from './Cards/ProjectsPersonalWebsite'
 import ProjectsWeatherApp from './Cards/ProjectsWeatherApp'
+import ProjectsCorporatise from './Cards/ProjectsCorporatise'
 
 type Props = {}
 
@@ -24,10 +25,13 @@ function Projects_1({ }: Props) {
       <div className='h-3/4 w-screen flex justify-start space-x-5 overflow-x-scroll py-12 p-10 snap-x snap-mandatory z-10 scrollbar'>
         {/*  scrollbar-track-gray-400/20 scrollbar-thumb-[#1e95aa]/50 */}
         <div className='h-full w-screen flex justify-start space-x-5 z-10'>
-          <ProjectUTimes />
+          <ProjectsCorporatise />
         </div>
         <div className='h-full w-screen flex justify-start space-x-5 z-10'>
           <ProjectsWeatherApp />
+        </div>
+        <div className='h-full w-screen flex justify-start space-x-5 z-10'>
+          <ProjectUTimes />
         </div>
         <div className='h-full w-screen flex justify-start space-x-5 z-10'>
           <ProjectsPersonalWebsite />

@@ -34,7 +34,7 @@ function Hero({}: Props) {
       <div className='z-20'> 
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[5px]'> Computer Science Graduate </h2>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[5px]'> University of Melbourne </h2>
-        <h1 className='text-4xl lg:text-5xl font-semibold px-10'>
+        <h1 className='text-4xl lg:text-5xl font-semibold px-10 font-mono'>
           <span> {text} </span>
           <Cursor cursorColor='#1e95aa'/>
         </h1>

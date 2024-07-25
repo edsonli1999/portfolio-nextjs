@@ -1,18 +1,14 @@
-import Image from 'next/image'
 import { Metadata } from 'next'
 import Header from './components/NavBar/Header'
 import Hero from './components/Hero/Hero'
 import ContactMe from './components/Contact/ContactMe'
 import About from './components/About/About'
 import WorkExperience from './components/Experience/WorkExperience'
-import Skills from './components/Skills/Skills'
-import Projects from './components/Projects/Projects'
 import Projects_1 from './components/Projects/Projects_1'
 
 // Note: 
 // 1. Sonny uses nextjs version (12.3.0) as opposed to my nextjs version (13.4.12) 
 //    Which is why the folder structure (and other small stuff) is slightly different
-// 2. Sonny doens't seem to need to add in "use client" in his component files.
 
 // VsCode Extensions:
 // TailwindCSS intellisense
@@ -20,6 +16,8 @@ import Projects_1 from './components/Projects/Projects_1'
 
 export const metadata: Metadata = {
   title: "Edson's Portfolio",
+  authors: [{ name: "Edson Li", url: "https://edsons-portfolio-nextjs.vercel.app" }],
+  keywords: ["Edson", "Portfolio", "Resume"]
 }
 
 export default function Home() {

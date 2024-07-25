@@ -1,9 +1,6 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
-import ExperienceCard from '../Experience/Cards/ExperienceCardTE'
-import ExperienceCardTE from '../Experience/Cards/ExperienceCardTE'
-import ExperienceCardShitimes from '../Experience/Cards/ExperienceCardShitimes'
 import ProjectUTimes from './Cards/ProjectsUTimes'
 import ProjectsPersonalWebsite from './Cards/ProjectsPersonalWebsite'
 import ProjectsWeatherApp from './Cards/ProjectsWeatherApp'

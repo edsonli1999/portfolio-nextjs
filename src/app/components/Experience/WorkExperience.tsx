@@ -1,10 +1,9 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
-import ExperienceCard from './Cards/ExperienceCardTE'
 import ExperienceCardTE from './Cards/ExperienceCardTE'
-import ExperienceCardShitimes from './Cards/ExperienceCardShitimes'
 import ExperienceCardUSWS from './Cards/ExperienceCardUSWS'
+import ExperienceCardDAT from './Cards/ExperienceCardDAT'
 
 
 type Props = {}
@@ -21,6 +20,9 @@ function WorkExperience({ }: Props) {
       </h3>
       <br></br>
       <div className='h-3/4 w-screen flex justify-start space-x-5 overflow-x-scroll py-12 p-10 snap-x snap-mandatory z-10 scrollbar'>
+        <div className='h-full w-screen flex justify-start space-x-5 z-10'>
+          <ExperienceCardDAT />
+        </div>
         <div className='h-full w-screen flex justify-start space-x-5 z-10'>
           <ExperienceCardUSWS />
         </div>

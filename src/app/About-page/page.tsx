@@ -3,7 +3,7 @@ import About from '../components/About/About';
 
 const AboutPage: React.FC = () => {
   return (
-    <div className='min-h-screen flex items-center justify-center p-4'>
+    <div className='flex items-center justify-center p-4 pt-10 h-svh'>
       <About />
     </div>
   );

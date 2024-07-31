@@ -11,6 +11,9 @@ function About({ }: Props) {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className='flex flex-col relative h-screen text-center max-w-7xl justify-evenly mx-auto items-center md:text-left md:flex-row lg:px-10'>
+
+      <h3 className='lg:absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'> About </h3>
+      
       <div className='flex flex-row w-full justify-center'>
         <a href="/" className="lg:hidden absolute left-0 pt-0.5 text-gray-500 bg-transparent border-none cursor-pointer focus:outline-none">
           <span className="relative inline-block w-6 h-6">
@@ -22,7 +25,7 @@ function About({ }: Props) {
           </span>
         </a>
       </div>
-      <h3 className='lg:absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'> About </h3>
+
 
       <motion.img
         initial={{

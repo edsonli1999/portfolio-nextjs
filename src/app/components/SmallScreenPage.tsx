@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './NavBar/Header';
 import Hero from './Hero/Hero';
-import About from './About/About';
 import ContactMe from './Contact/ContactMe';
 
 const SmallScreenPage: React.FC = () => {

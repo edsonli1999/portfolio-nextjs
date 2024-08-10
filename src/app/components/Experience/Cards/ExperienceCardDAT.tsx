@@ -49,6 +49,7 @@ function ExperienceCardDAT({ }: Props) {
           />
 
         </div>
+        
         <p className='uppercase py-4 text-gray-300'> April 2024 - Current </p>
 
         <ul className='list-disc space-y-4 ml-5 text-md text-white'>
@@ -66,15 +67,15 @@ function ExperienceCardDAT({ }: Props) {
           </p>
 
           <p className='py-2 text-white'>
-            In summary, I am training AI models by testing responses given by various LLMs (language learning models), mostly relating to code. These could be anything from simple python `hello world` programs, to slightly less-simple react and nextjs applications. 
-          </p>
-          
-          <p className='py-2 text-white'>
-            As such, I am constantly refreshing my memory on these technologies, as well as consistently learning new ones. 
+            In summary, I am training AI models by testing responses given by various LLMs (language learning models), mostly relating to code. These could be anything from simple python `hello world` programs, to slightly less-simple react and nextjs applications.
           </p>
 
           <p className='py-2 text-white'>
-            Due to being fully remote, as well as allowing myself to dictate my own work hours, I am massively grateful to be given this opportunity to fully explore my passions and hobbies in my spare time. Some of these include helping out with a social media application for the University of Melbourne as an Alumni, as well as upskilling myself and studying for my AWS Associate Solutions Architect certification. 
+            As such, I am constantly refreshing my memory on these technologies, as well as consistently learning new ones.
+          </p>
+
+          <p className='py-2 text-white'>
+            Due to being fully remote, as well as allowing myself to dictate my own work hours, I am massively grateful to be given this opportunity to fully explore my passions and hobbies in my spare time. Some of these include helping out with a social media application for the University of Melbourne as an Alumni, as well as upskilling myself and studying for my AWS Associate Solutions Architect certification.
           </p>
 
         </div>

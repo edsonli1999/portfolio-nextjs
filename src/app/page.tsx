@@ -28,7 +28,7 @@ export default function Home() {
 
   useEffect(() => {
     const checkScreenSize = () => {
-      const isSmall = window.innerWidth < 600;
+      const isSmall = window.innerWidth < 900;
       setIsSmallScreen(isSmall);
     };
 

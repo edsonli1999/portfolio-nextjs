@@ -46,6 +46,7 @@ function Hero({ isSmallScreen }: Props) {
           {isSmallScreen ? (
             <>
               <Link href='/About-page'><button className='heroButton'>About </button></Link>
+              <Link href='/Experience-page'><button className='heroButton'>Experience </button></Link>
               <div className='text-sm text-gray-400 pb-2 tracking-[3px] m-10 space-y-5'>
                 <h1> Small screen detected.</h1>
                 <h1> Projects and Experience sections are not viewable on smaller screens yet. </h1>

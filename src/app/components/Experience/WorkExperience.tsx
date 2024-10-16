@@ -1,45 +1,45 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-// import ExperienceCardTE from './Cards/ExperienceCardTE'
-// import ExperienceCardUSWS from './Cards/ExperienceCardUSWS'
-// import ExperienceCardDAT from './Cards/ExperienceCardDAT'
-import ExperienceCard from './Cards/ExperienceCard'
+import React, { useState } from 'react';
+import { motion } from 'framer-motion'; // Remove this if not used
+import ExperienceCard from './Cards/ExperienceCard'; // Verify the path
+import { useRouter } from 'next/navigation'
 
+// Defining the props interface for the WorkExperience component
+type Props = { isSmallScreen: boolean };
 
-type Props = {}
-
-function WorkExperience({ }: Props) {
+// Function component for WorkExperience
+function WorkExperience({ isSmallScreen }: Props) {
+  // Array of experience data
   const experienceData = [
     // DAT
-    {
-      companyName: 'Data Annotation Technology',
-      companyUrl: 'https://www.dataannotation.tech/about?',
-      companyIcon: 'dataannotationtech_logo.jpeg',
-      position: 'Software Developer - AI Trainer',
-      techStack: [
-        'https://w7.pngwing.com/pngs/447/294/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png',
-        'https://cdn.iconscout.com/icon/free/png-512/free-typescript-1-1175078.png?f=webp&w=256',
-        'https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256',
-        'https://cdn.iconscout.com/icon/premium/png-512-thumb/html-19-116634.png?f=webp&w=256',
-        'https://cdn.iconscout.com/icon/premium/png-512-thumb/css-22-116632.png?f=webp&w=256'
-      ],
-      tenure: 'Apr 2024 - Present',
-      description: [
-        'Collaborated with high-profile clients, contributing to the development and enhancement of widely-used AI technologies.',
-        'Trained AI LLMs in various aspects, with a heavy emphasis on coding-related tasks.',
-        'Technology used: Web Development (Python, React JS, TS, HTML+CSS), Scripting (Python), Data Analysis (Python Pandas, Matplotlib), Others (Java, C, Rust)',
-      ],
-      summaryNotes: [
-        "Due to signing an NDA, I can't give too detailed of a summary unfortunately.",
-        'In summary, I am training AI models by testing responses given by various LLMs (language learning models), mostly relating to code. These could be anything from simple python `hello world` programs, to slightly less-simple react and nextjs applications.',
-        'As such, I am constantly refreshing my memory on these technologies, as well as consistently learning new ones.',
-        'Due to being fully remote, as well as allowing myself to dictate my own work hours, I am massively grateful to be given this opportunity to fully explore my passions and hobbies in my spare time. Some of these include helping out with a social media application for the University of Melbourne as an Alumni, as well as upskilling myself and studying for my AWS Associate Solutions Architect certification.'
-      ],
+    // {
+    //   companyName: 'Workplace 1',
+    //   companyUrl: 'https://www.dataannotation.tech/about?',
+    //   companyIcon: 'dataannotationtech_logo.jpeg',
+    //   position: 'Software Developer - AI Trainer',
+    //   techStack: [
+    //     'https://w7.pngwing.com/pngs/447/294/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png',
+    //     'https://cdn.iconscout.com/icon/free/png-512/free-typescript-1-1175078.png?f=webp&w=256',
+    //     'https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256',
+    //     'https://cdn.iconscout.com/icon/premium/png-512-thumb/html-19-116634.png?f=webp&w=256',
+    //     'https://cdn.iconscout.com/icon/premium/png-512-thumb/css-22-116632.png?f=webp&w=256'
+    //   ],
+    //   tenure: 'Apr 2024 - Present',
+    //   description: [
+    //     'Collaborated with high-profile clients, contributing to the development and enhancement of widely-used AI technologies.',
+    //     'Trained AI LLMs in various aspects, with a heavy emphasis on coding-related tasks.',
+    //     'Technology used: Web Development (Python, React JS, TS, HTML+CSS), Scripting (Python), Data Analysis (Python Pandas, Matplotlib), Others (Java, C, Rust)',
+    //   ],
+    //   summaryNotes: [
+    //     "Due to signing an NDA, I can't give too detailed of a summary unfortunately.",
+    //     'In summary, I am training AI models by testing responses given by various LLMs (language learning models), mostly relating to code. These could be anything from simple python `hello world` programs, to slightly less-simple react and nextjs applications.',
+    //     'As such, I am constantly refreshing my memory on these technologies, as well as consistently learning new ones.',
+    //     'Due to being fully remote, as well as allowing myself to dictate my own work hours, I am massively grateful to be given this opportunity to fully explore my passions and hobbies in my spare time. Some of these include helping out with a social media application for the University of Melbourne as an Alumni, as well as upskilling myself and studying for my AWS Associate Solutions Architect certification.'
+    //   ],
 
-    },
+    // },
     // Universal Software Solutions
     {
-      companyName: 'Universal Software Solutions',
+      companyName: 'Workplace 2',
       companyUrl: 'https://www.u-sws.com/',
       companyIcon: 'https://www.u-sws.com/Content/images/uSWS.gif',
       position: 'Graduate Software Developer',
@@ -56,7 +56,7 @@ function WorkExperience({ }: Props) {
         'Improved the workflow of over 2,000 employees at Roy Hill ($3.2B profit in 2024) and 200 employees at RTC Group ($12M profit in 2024) by developing customized app pages.',
         'Developed and maintained company services, enhancing functionality through source code updates and API integrations.',
         'Technology used: Full stack (JS, TS, HTML, CSS), Rest API Calls (JS, VB.NET), dev workflow (Azure Devops, Git)',
-        'Reference: Andrew Rigby (andrew.rigby@u-sws.com, 0410 469 329), Vishal Maru (vishal.maru@u-sws.com, 0405 242 694)'
+        // 'Reference: Andrew Rigby (andrew.rigby@u-sws.com, 0410 469 329), Vishal Maru (vishal.maru@u-sws.com, 0405 242 694)'
       ],
       summaryNotes: [
         "My time at U-SWS was a fruitful one. As the company size was small, I had the privilege of experiencing being a software developer in an intimate environment. Being situated in Croydon, I enjoyed going against the flow of traffic every commute, and got to enjoy the lovely cafes and shops of an outer suburb.",
@@ -71,7 +71,7 @@ function WorkExperience({ }: Props) {
     },
     // Toppan Ecquaria
     {
-      companyName: 'Toppan Ecquaria Singapore',
+      companyName: 'Workplace 3',
       companyUrl: 'https://toppanecquaria.com/',
       companyIcon: 'https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/2801bc91708af6798450',
       position: 'Software Developer Intern',
@@ -84,7 +84,7 @@ function WorkExperience({ }: Props) {
         'Contributed to the development of a polling web application used by the Singapore Government during the 2023 Presidential Election, serving over 2.7 million eligible voters.',
         'Responsibilities included manual testing, updating test datasets, scripting for user acceptance testing, and updating database models.',
         'Technology used: Data cleaning (excel, python pandas), scripting (python selenium), database modelling (draw.io, AWS), admin (microsoft office)',
-        'Reference: Wei Yang +65 9029 1959'
+        // 'Reference: Wei Yang +65 9029 1959'
       ],
       summaryNotes: [
         "I was given a testing script from a full-time developer, coded using Python Selenium. Although functional, the previous developer was in a time crunch, and as such I was tasked to make it more stable, user friendly, and reusable. Additionally, I had to make a new script that was similar, with its purpose to test another part of the website.",
@@ -97,33 +97,90 @@ function WorkExperience({ }: Props) {
 
   ];
 
-  // console.log(experienceData)
+  // State to keep track of the expanded state of each card individually
+  const [expandedCard, setExpandedCard] = useState<{ [key: string]: boolean }>({});
+  const router = useRouter();
+
+  // Function to handle the expansion/collapse of an individual card
+  const toggleCardExpansion = (companyName: string) => {
+    setExpandedCard((prevState) => ({
+      ...prevState,
+      [companyName]: !prevState[companyName],
+    }));
+  };
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='flex relative overflow-hidden flex-col text-left md:flex-row h-screen max-w-full px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
-        Experience
-      </h3>
+      // ideal
+      className='lg:flex lg:relative lg:overflow-hidden lg:text-left lg:flex-row lg:h-screen lg:max-w-full lg:px-10 lg:justify-evenly lg:mx-auto lg:items-center lg:z-10'
+      // Resp A
+      // className='lg:flex relative overflow-hidden flex-col text-left md:flex-row h-screen max-w-full px-10 justify-evenly mx-auto items-center z-10'
+      // Resp B
+      // className='lg:flex lg:relative lg:overflow-hidden lg:flex-col lg:text-left md:flex-row lg:h-screen lg:max-w-full lg:px-10 lg:justify-evenly lg:mx-auto lg:items-center lg:z-10'
+    >
+      {/* Conditional rendering of the 'Experience' header based on screen size */}
+      {isSmallScreen ? (
+        <div className='flex flex-col items-center w-full'>
+          <h3 className='uppercase tracking-[20px] text-gray-500 text-2xl z-10 text-center w-full'>
+            Experience
+          </h3>
+        </div>
+      ) : (
+        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-10'>
+          Experience
+        </h3>
+      )}
       <br></br>
-      <div className='h-[90%] w-screen flex justify-start space-x-5 overflow-x-scroll pt-24 pb-8 p-10 snap-x snap-mandatory z-10 scrollbar'>
-        {experienceData.map((experience, index) => {
-          return (
-            <div key={index} className='h-full w-screen flex justify-start space-x-5 z-10'>
-              <ExperienceCard {...experience} />
-              {/* Spread the experience props onto the ExperienceCard component */}
+      {/* Conditional rendering of Experience Cards */}
+      {isSmallScreen ? (
+        <div className="w-full">
+          {experienceData.map((experience, index) => (
+            <div key={index} className="mb-4">
+              <button
+                onClick={() => toggleCardExpansion(experience.companyName)}
+                className="heroButton w-full text-center border-b-2 border-gray-500"
+              >
+                {expandedCard[experience.companyName] ? 'Hide' : 'Show'} {experience.companyName}
+              </button>
+              {expandedCard[experience.companyName] && (
+                <ExperienceCard
+                  {...experience}
+                  // Passing isSmallScreen to ExperienceCard to conditionally render styles
+                  isSmallScreen={isSmallScreen}
+                  isExpanded={expandedCard[experience.companyName]}
+                  toggleCardExpansion={toggleCardExpansion}
+                />
+              )}
             </div>
-          )
-        }
-        )}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <div className="h-[90%] w-screen flex justify-start space-x-5 overflow-x-scroll pt-24 pb-8 p-10 snap-x snap-mandatory z-10 scrollbar">
+          {experienceData.map((experience, index) => (
+            <div key={index} className="h-full w-screen flex justify-start space-x-5 z-10">
+              {/* Render the ExperienceCard component in the carousel */}
+              <ExperienceCard
+                {...experience}
+                isExpanded={expandedCard[experience.companyName]}
+                toggleCardExpansion={toggleCardExpansion}
+                isSmallScreen={false}
+              />
+            </div>
+          ))}
+        </div>
+      )}
 
-      <div className='w-full absolute top-[30%] bg-[#1e95aa]/10 left-0 h-[500px] -skew-y-12 z-0' />
+      {/* Conditionally rendering the back button based on screen size*/}
+      {isSmallScreen && (
+        <div className="flex justify-center mt-4">
+          <button className="heroButton" onClick={() => router.push('/')} >Back to Home</button>
+        </div>
+      )}
+
     </motion.div>
-  )
+  );
 }
-
-export default WorkExperience
+export default WorkExperience;  

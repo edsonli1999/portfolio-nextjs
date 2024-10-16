@@ -19,7 +19,7 @@ function About({ }: Props) {
           <span className="relative inline-block w-6 h-6">
             <span className="absolute inset-0 flex items-center justify-center">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
               </svg>
             </span>
           </span>

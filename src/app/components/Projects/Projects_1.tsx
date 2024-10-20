@@ -1,9 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ProjectUTimes from './Cards/ProjectsUTimes'
-import ProjectsPersonalWebsite from './Cards/ProjectsPersonalWebsite'
-import ProjectsWeatherApp from './Cards/ProjectsWeatherApp'
-import ProjectsCorporatise from './Cards/ProjectsCorporatise'
 import ProjectCard from './Cards/ProjectCard';
 
 type Props = {}
@@ -65,18 +61,6 @@ function Projects_1({ }: Props) {
             <ProjectCard {...project} />
           </div>
         ))}
-        {/* <div className='h-full w-screen flex justify-start space-x-5 z-10'>
-          <ProjectUTimes />
-        </div>
-        <div className='h-full w-screen flex justify-start space-x-5 z-10'>
-          <ProjectsCorporatise />
-        </div>
-        <div className='h-full w-screen flex justify-start space-x-5 z-10'>
-          <ProjectsWeatherApp />
-        </div>
-        <div className='h-full w-screen flex justify-start space-x-5 z-10'>
-          <ProjectsPersonalWebsite />
-        </div> */}
       </div>
 
       <div className='w-full absolute top-[30%] bg-[#1e95aa]/10 left-0 h-[500px] skew-y-12 z-0' />

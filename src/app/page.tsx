@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       <section id='projects' className='snap-start '>
-        <Projects_1 />
+        <Projects_1 isSmallScreen={false}/>
       </section>
 
       {/* <section id='skills' className='snap-start'>

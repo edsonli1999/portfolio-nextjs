@@ -10,11 +10,12 @@ type ProjectCardProps = {
   githubLink: string;
   technology?: string[]; // optional technology prop
   description: string;
+  isSmallScreen: boolean;
 };
 
-function ProjectCard({ name, imageSrc, websiteLink, githubLink, technology, description }: ProjectCardProps) {
+function ProjectCard({ name, imageSrc, websiteLink, githubLink, technology, description, isSmallScreen }: ProjectCardProps) {
   return (
-    <article className='flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll scrollbar'>
+    <article className={`flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 ${isSmallScreen ? 'w-full' : 'w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px]'} snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll scrollbar`}>
       <Link href={websiteLink} target='_blank'>
         <motion.img
           initial={{ y: -100, opacity: 0 }}

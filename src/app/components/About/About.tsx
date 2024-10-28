@@ -13,9 +13,9 @@ function About({ }: Props) {
       className='flex flex-col relative h-screen text-center max-w-7xl justify-evenly mx-auto items-center md:text-left md:flex-row lg:px-10'>
 
       <h3 className='lg:absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'> About </h3>
-      
+
       <div className='flex flex-row w-full justify-center'>
-        <a href="/" className="lg:hidden absolute left-0 pt-0.5 text-gray-500 bg-transparent border-none cursor-pointer focus:outline-none">
+        <a href="/" className="backButton lg:hidden absolute left-0 pt-0.5 text-gray-500 bg-transparent border-none cursor-pointer focus:outline-none">
           <span className="relative inline-block w-6 h-6">
             <span className="absolute inset-0 flex items-center justify-center">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -63,11 +63,8 @@ function About({ }: Props) {
               I believe that in any situation, being presentable and likeable is one of the most important things in life. I would love to showcase my ability to make an impression through an interview, if you&apos;ll have me.
             </p>
 
-            {/* <p className='text-base'> 
-              My favourite languages currently are Python and Java, although honestly every language has its pros and cons.
-            </p> */}
           </div>
-          {/* <MdChevronRight size={300}/> */}
+
         </div>
       </div>
 

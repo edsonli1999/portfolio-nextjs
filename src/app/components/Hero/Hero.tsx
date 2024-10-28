@@ -43,7 +43,6 @@ function Hero({ isSmallScreen }: Props) {
               <Link href="/Projects-page">
                 <button className="heroButton">Projects</button>
               </Link>
-              {/* Add in link button to contacts page here */}
               <Link href="#contact">
                 <button className="heroButton">Contact</button>
               </Link>
@@ -53,9 +52,6 @@ function Hero({ isSmallScreen }: Props) {
                 </h1>
                 <h1>Please note that some elements may not be properly displayed, especially in landscape.</h1>
                 {/* Add in 'scroll down for more' indication here */}
-                <div className="text-right">
-                  <span className="inline-block px-3 py-2 rounded-full text-white bg-gray-700">v</span>
-                </div>
               </div>
             </>
           ) : (

@@ -31,12 +31,7 @@ function WorkExperience({ isSmallScreen }: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      // ideal
       className='lg:flex lg:relative lg:overflow-hidden lg:text-left lg:flex-row lg:h-screen lg:max-w-full lg:px-10 lg:justify-evenly lg:mx-auto lg:items-center lg:z-10'
-    // Resp A
-    // className='lg:flex relative overflow-hidden flex-col text-left md:flex-row h-screen max-w-full px-10 justify-evenly mx-auto items-center z-10'
-    // Resp B
-    // className='lg:flex lg:relative lg:overflow-hidden lg:flex-col lg:text-left md:flex-row lg:h-screen lg:max-w-full lg:px-10 lg:justify-evenly lg:mx-auto lg:items-center lg:z-10'
     >
       {/* Conditional rendering of the 'Experience' header based on screen size */}
       {isSmallScreen ? (
@@ -86,7 +81,7 @@ function WorkExperience({ isSmallScreen }: Props) {
         </div>
       ) : (
         <>
-          <div className="h-[90%] w-screen flex justify-start space-x-5 overflow-x-scroll pt-24 pb-8 p-10 snap-x snap-mandatory z-10 scrollbar">
+          <div className="h-[90%] w-screen flex justify-start space-x-5 overflow-x-scroll pt-24 pb-8 snap-x snap-mandatory z-10 scrollbar">
             {experienceData.map((experience, index) => (
               <div key={index} className="h-full w-screen flex justify-start space-x-5 z-10">
                 {/* Render the ExperienceCard component in the carousel */}

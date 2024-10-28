@@ -27,10 +27,6 @@ function ExperienceCard({ companyName, companyUrl, companyIcon, position, tenure
   };
 
   return (
-    // <article className={`flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10 ${isExpanded ? 'opacity-100' : 'opacity-40'} transition-opacity duration-200 overflow-y-scroll z-10 scrollbar`}>
-    // <article className={`flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10 ${isExpanded ? 'opacity-100' : 'opacity-40'} md:hover:opacity-100 md:opacity-40 transition-opacity duration-200 overflow-y-scroll z-10 scrollbar`}>
-    
-    // New
     <article className={`flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 ${isSmallScreen ? 'w-full' : 'w-[400px] md:w-[600px] xl:w-[800px] snap-center'} bg-[#292929] p-10 ${isExpanded ? 'opacity-100' : 'opacity-40'} md:hover:opacity-100 md:opacity-40 transition-opacity duration-200 overflow-y-scroll z-10 scrollbar`}>
 
         {companyUrl && (

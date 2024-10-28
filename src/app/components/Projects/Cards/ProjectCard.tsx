@@ -15,7 +15,7 @@ type ProjectCardProps = {
 
 function ProjectCard({ name, imageSrc, websiteLink, githubLink, technology, description, isSmallScreen }: ProjectCardProps) {
   return (
-    <article className={`flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 ${isSmallScreen ? 'w-full' : 'w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px]'} snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll scrollbar`}>
+    <article className={`flex flex-col rounded-lg items-center justify-center space-y-7 flex-shrink-0 ${isSmallScreen ? 'w-full' : 'w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px]'} snap-center bg-[#292929] p-10 lg:hover:opacity-100 lg:opacity-40 opacity-100 transition-opacity duration-200 overflow-y-scroll scrollbar`}>
       <Link href={websiteLink} target='_blank'>
         <motion.img
           initial={{ y: -100, opacity: 0 }}
@@ -36,13 +36,6 @@ function ProjectCard({ name, imageSrc, websiteLink, githubLink, technology, desc
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'>
           <a href={githubLink} target='_blank'>Link to Github</a>
         </p>
-        {/* {technology && (
-          <div className='flex space-x-2 my-2 justify-center'>
-            {technology.map((tech, index) => (
-              <img key={index} className='h-10 w-10 rounded-full' src={`/path/to/${tech}.png`} />
-            ))}
-          </div>
-        )} */}
         <p className='space-y-4 ml-5 text-md p-5'>{description}</p>
       </div>
     </article>

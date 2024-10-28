@@ -15,24 +15,25 @@ export const experienceData = [
     ],
     tenure: 'Jul 2024 - Present',
     description: [
-      'To view our app (very incomplete and still in its dev stage), go to this URL -> circula.dyndns-web.com:32722. Accessible on both mobile and desktop.',
       'Ongoing role at an early-stage startup, leading the development of an event-discovery web application for university students, scheduled for release to UniMelb students by early to mid next year.',
+      'To view our app (very incomplete and still in its dev stage), go to this URL -> circula.dyndns-web.com:32722. Accessible on both mobile and desktop.',
       'Solely responsible for building the front-end in its initial stages, utilising the new Next.js app router to create a robust and user-friendly interface.',
-      'Technology used: Web Development (Next JS, TypeScript, Tailwind CSS), Auth (Firebase), Google API (Maps, Places), Dev workflow (Slack, Git)',
+      'Skills: Web Development (Next JS, TypeScript, Tailwind CSS), Auth (Firebase), Google API (Maps, Places), Dev workflow (Slack, Git)',
     ],
     summaryNotes: [
-      "I was first approached by Mia, the founder whilst doing some of my programming work at the bouldering gym",
+      "I was first approached by Mia, the founder, whilst doing some of my programming work at the bouldering gym",
       "When she asked if I wanted to help out with her team, I immediately said yes. I have always wanted to use my programming skills for a cause that is personal and genuine to me. The purpose of this app and company aligned with my goals, and as such I joined without hesitation.",
       "I quickly found out that I was pretty much the sole front-end developer, to which I took on the mantle without hesitation.",
       "Once I properly wrapped my head around our use case, I proposed a tech stack that would fit the goals of our application, with technologies that I had some familiarity with.",
-      "I consulted with our back-end developer what his plans were for the back-end, and made sure that my proposal (NextJS), could incorporate his vision as well.",
+      "I consulted with our back-end developer what his plans were for the back-end, and made sure that my proposed front-end (NextJS), could incorporate his vision as well.",
       "The starting process wasn't easy. I often found myself stuck in analysis paralysis at times, not wanting to head in the wrong direction. However, once I got the ball rolling, things were much easier.",
       "I utilised various external resources to build the front-end, and consulted with GPT-4 on the best course of action on technologies to implement.",
       "Once I finished building the state management component, things were much more streamlined from then on. We have since managed to secure a spot as an industry partner for a UniMelb masters subject, which essentially saw us taking on a group of software developer students as our interns.",
       "Taking on a pseudo managerial position was quite interesting, as I saw myself being faced with questions that required me to quickly identify the root cause of.",
-      "One particular instance was when I was told our external call to a Google API seemed to not work suddenly. I was given little information, and I had to get the student to contact me, asking them context questions to identify the root cause. Ultimately, we found that our particular project hadn't enabled `Places API` for some reason, which was strange since this was working prior even without this API enabled.",
+      "One particular instance was when I was told our external call to a Google API seemed to not work suddenly. I was given little information, and I had to get the student to contact me, asking them context questions to identify the root cause. Ultimately, we found that our Google Cloud Project hadn't enabled `Places API`, which was strange since this was working prior even without this API enabled.",
       "One of the biggest lessons I have learned so far is working with different coding styles. Being flexible in different ways of coding is key, as I needed to understand their implementations in order to give proper advice and thoughts.",
-      "Another lesson is in managing external expectations, particularly with parties that don't have much developing experience. I needed to explain things in ways that were understandable for them, highlighting why certain features and app pages may take a certain time frame to implement."
+      "Another lesson is in managing external expectations, particularly with parties that don't have much developing experience. I needed to explain things in ways that were understandable for them, highlighting why certain features and app pages may take a certain time frame to implement.",
+      "Recently, I had the pleasure of representing the company (alongside other members) at a networking event. It was inspiring to connect with so many other passionate groups of people."
     ],
   },
   // DAT
@@ -50,9 +51,10 @@ export const experienceData = [
     ],
     tenure: 'Apr 2024 - Present',
     description: [
+      'Ongoing casual role',
       'Collaborated with high-profile clients, contributing to the development and enhancement of widely-used AI technologies.',
       'Trained AI LLMs in various aspects, with a heavy emphasis on coding-related tasks.',
-      'Technology used: Web Development (Python, React JS, TS, HTML+CSS), Scripting (Python), Data Analysis (Python Pandas, Matplotlib), Others (Java, C, Rust)',
+      'Skills: Web Development (Python, React JS, TS, HTML+CSS), Scripting (Python), Data Analysis (Python Pandas, Matplotlib), Others (Java, C, Rust)',
     ],
     summaryNotes: [
       "Due to signing an NDA, I can't give too detailed of a summary unfortunately.",
@@ -79,7 +81,7 @@ export const experienceData = [
     description: [
       'Improved the workflow of over 2,000 employees at Roy Hill ($3.2B profit in 2024) and 200 employees at RTC Group ($12M profit in 2024) by developing customized app pages.',
       'Developed and maintained company services, enhancing functionality through source code updates and API integrations.',
-      'Technology used: Full stack (JS, TS, HTML, CSS), Rest API Calls (JS, VB.NET), dev workflow (Azure Devops, Git)',
+      'Skills: Full stack (JS, TS, HTML, CSS), Rest API Calls (JS, VB.NET), dev workflow (Azure Devops, Git)',
       // 'Reference: Andrew Rigby (andrew.rigby@u-sws.com, 0410 469 329), Vishal Maru (vishal.maru@u-sws.com, 0405 242 694)'
     ],
     summaryNotes: [
@@ -107,7 +109,7 @@ export const experienceData = [
     description: [
       'Contributed to the development of a polling web application used by the Singapore Government during the 2023 Presidential Election, serving over 2.7 million eligible voters.',
       'Responsibilities included manual testing, updating test datasets, scripting for user acceptance testing, and updating database models.',
-      'Technology used: Data cleaning (excel, python pandas), scripting (python selenium), database modelling (draw.io, AWS), admin (microsoft office)',
+      'Skills: Data cleaning (excel, python pandas), scripting (python selenium), database modelling (draw.io, AWS), admin (microsoft office)',
       // 'Reference: Wei Yang +65 9029 1959'
     ],
     summaryNotes: [

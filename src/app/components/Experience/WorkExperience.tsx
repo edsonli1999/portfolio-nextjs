@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion'; // Remove this if not used
-import ExperienceCard from './Cards/ExperienceCard'; // Verify the path
-import { useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
+import ExperienceCard from './Cards/ExperienceCard';
 import { experienceData } from '@/data/experienceData';
+import { useRouter } from 'next/navigation';
 
 // Defining the props interface for the WorkExperience component
 type Props = { isSmallScreen: boolean };
@@ -87,9 +87,10 @@ function WorkExperience({ isSmallScreen }: Props) {
                 {/* Render the ExperienceCard component in the carousel */}
                 <ExperienceCard
                   {...experience}
+                  isSmallScreen={false} 
                   isExpanded={expandedCard[experience.companyName]}
                   toggleCardExpansion={toggleCardExpansion}
-                  isSmallScreen={false} />
+                  />
               </div>
             ))}
           </div>

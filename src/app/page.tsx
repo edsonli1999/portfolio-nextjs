@@ -6,6 +6,7 @@ import ContactMe from './components/Contact/ContactMe'
 import About from './components/About/About'
 import WorkExperience from './components/Experience/WorkExperience'
 import Projects_1 from './components/Projects/Projects_1'
+import Projects from './components/Projects/Projects'
 import { useState, useEffect } from 'react'
 import SmallScreenPage from './components/SmallScreenPage'
 
@@ -65,7 +66,7 @@ export default function Home() {
       </section>
 
       <section id='projects' className='snap-start '>
-        <Projects_1 isSmallScreen={false}/>
+        <Projects isSmallScreen={false}/>
       </section>
 
       {/* <section id='skills' className='snap-start'>

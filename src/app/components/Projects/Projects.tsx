@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion'; // Remove this if not used
+import { motion } from 'framer-motion';
 import ProjectCard from './Cards/ProjectCard';
 import { projectsData } from '@/data/projectsData';
 import { useRouter } from 'next/navigation';
@@ -46,9 +46,7 @@ function Projects({ isSmallScreen }: Props) {
       {/* Conditionally rendering the back button based on screen size*/}
       {isSmallScreen && (
         <div className="flex justify-center mt-4">
-          <button className="heroButton" onClick={() => router.push('/')}>
-            Back to Home
-          </button>
+          <button className="heroButton" onClick={() => router.push('/')}>Back to Home</button>
         </div>
       )}
 
@@ -66,13 +64,14 @@ function Projects({ isSmallScreen }: Props) {
                 {expandedCard[project.name] ? 'Hide' : 'Show'} {project.name}
               </button>
               {expandedCard[project.name] && (
-                <ProjectCard {...project} isSmallScreen={isSmallScreen} />
+                <ProjectCard 
+                {...project} 
+                isSmallScreen={isSmallScreen} 
+                />
               )}
             </div>
           ))}
-          <button className="heroButton mt-4" onClick={scrollToTop}>
-            Back to Top
-          </button>
+          <button className="heroButton mt-4" onClick={scrollToTop}>Back to Top</button>
         </div>
       ) : (
         <>

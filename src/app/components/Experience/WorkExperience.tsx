@@ -70,9 +70,9 @@ function WorkExperience({ isSmallScreen }: Props) {
                 <ExperienceCard
                   {...experience}
                   // Passing isSmallScreen to ExperienceCard to conditionally render styles
-                  isSmallScreen={isSmallScreen}
-                  isExpanded={expandedCard[experience.companyName]}
-                  toggleCardExpansion={toggleCardExpansion}
+                  // isSmallScreen={isSmallScreen}
+                  // isExpanded={expandedCard[experience.companyName]}
+                  // toggleCardExpansion={toggleCardExpansion}
                 />
               )}
             </div>
@@ -87,9 +87,9 @@ function WorkExperience({ isSmallScreen }: Props) {
                 {/* Render the ExperienceCard component in the carousel */}
                 <ExperienceCard
                   {...experience}
-                  isSmallScreen={false} 
-                  isExpanded={expandedCard[experience.companyName]}
-                  toggleCardExpansion={toggleCardExpansion}
+                  // isSmallScreen={false} 
+                  // isExpanded={expandedCard[experience.companyName]}
+                  // toggleCardExpansion={toggleCardExpansion}
                   />
               </div>
             ))}

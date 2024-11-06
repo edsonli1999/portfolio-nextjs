@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './Cards/ProjectCard';
@@ -34,7 +35,7 @@ function Projects({ isSmallScreen }: Props) {
       {isSmallScreen ? (
         <div className='flex flex-col items-center w-full'>
           <h3 className='uppercase tracking-[20px] text-gray-500 text-2xl z-10 text-center w-full'>
-            Projects
+            &nbsp;Projects&nbsp;
           </h3>
         </div>
       ) : (
@@ -64,9 +65,9 @@ function Projects({ isSmallScreen }: Props) {
                 {expandedCard[project.name] ? 'Hide' : 'Show'} {project.name}
               </button>
               {expandedCard[project.name] && (
-                <ProjectCard 
-                {...project} 
-                isSmallScreen={isSmallScreen} 
+                <ProjectCard
+                  {...project}
+                // isSmallScreen={isSmallScreen} 
                 />
               )}
             </div>
@@ -80,7 +81,7 @@ function Projects({ isSmallScreen }: Props) {
               <div key={index} className="h-full w-screen flex justify-start space-x-5 z-10">
                 <ProjectCard
                   {...project}
-                  isSmallScreen={false}
+                // isSmallScreen={false}
                 // Uncomment this line once you have modified your `ProjectCard` component to take in the `toggleCardExpansion` prop
                 // toggleCardExpansion={toggleCardExpansion}
                 />

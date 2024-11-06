@@ -58,7 +58,8 @@ export default function Home() {
       </section>
 
       <section id='about' className='snap-end'>
-        <About />
+        {/* <About isMobile={false}/> */}
+        <About/>
       </section>
 
       <section id='experience' className='snap-center'>

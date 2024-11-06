@@ -13,7 +13,6 @@ const ProjectsPage: React.FC = () => {
         <p className="text-lg mb-4">This page is optimized for smaller screens. Please view on a mobile device or resize your browser.</p>
         <button 
           onClick={() => router.push('/')} 
-          // className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           className="heroButton"
         >
           Go Back Home

@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ProjectCard from './Cards/ProjectCard';
 import { projectsData } from '@/data/projectsData';
 
 type Props = { isSmallScreen: boolean };
@@ -24,7 +23,7 @@ function Projects_1({ isSmallScreen }: Props) {
         <div className="w-full">
           {projectsData.map((project, index) => (
             <div key={index} className="mb-4">
-              <ProjectCard {...project} isSmallScreen={isSmallScreen} />
+              {/* <ProjectCard {...project} isSmallScreen={isSmallScreen} /> */}
             </div>
           ))}
         </div>
@@ -32,7 +31,7 @@ function Projects_1({ isSmallScreen }: Props) {
         <div className="h-[90%] w-screen flex justify-start space-x-5 overflow-x-scroll pt-24 pb-8 snap-x snap-mandatory z-10 scrollbar">
           {projectsData.map((project, index) => (
             <div key={index} className="h-full w-screen flex justify-start space-x-5 z-10">
-              <ProjectCard {...project} isSmallScreen={false} />
+              {/* <ProjectCard {...project} isSmallScreen={false} /> */}
             </div>
           ))}
         </div>

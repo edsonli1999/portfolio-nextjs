@@ -1,6 +1,5 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-import Script from 'next/script'; // Import the Script component
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
@@ -21,25 +20,9 @@ export default function RootLayout({
         <link rel="author" href="https://edson-li.vercel.app"></link>
         <meta name="author" content="Edson Li"></meta>
         <meta name="keywords" content="Edson,Portfolio,Resume"></meta>
-
-        {/* Google Analytics Script */}
-        {/* <Script 
-          async
-          id='google-analytics'
-          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
-        />
-        <Script id='google-analytics-config'>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', '${googleAnalyticsId}');
-          `}
-        </Script> */}
       </head>
       <body className={inter.className}>{children}</body>
-      {googleAnalyticsId? <GoogleAnalytics gaId={googleAnalyticsId} /> : <></> }
+      {googleAnalyticsId && <GoogleAnalytics gaId={googleAnalyticsId} />}
     </html>
   );
 }

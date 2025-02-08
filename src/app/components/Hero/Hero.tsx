@@ -47,9 +47,6 @@ function Hero({ isSmallScreen }: Props) {
                 <button className="heroButton">Contact</button>
               </Link>
               <div className="text-sm text-gray-400 pb-2 tracking-[3px] m-10 space-y-5">
-                <h1>
-                  Projects section is not viewable on smaller screens yet unfortunately.
-                </h1>
                 <h1>Please note that some elements may not be properly displayed, especially in landscape.</h1>
                 {/* Add in 'scroll down for more' indication here */}
               </div>

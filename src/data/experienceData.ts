@@ -1,10 +1,32 @@
 // Array of experience data
 export const experienceData = [
+  // Girraphic
+  {
+    companyName: 'Girraphic',
+    companyUrl: 'https://girraphic.com',
+    companyIcon: 'https://media.licdn.com/dms/image/v2/C560BAQGzWA0j1CcLVA/company-logo_200_200/company-logo_200_200/0/1671634988887/girraphic_logo?e=1747267200&v=beta&t=AJ55EVKV6WrptTAjSVw8D4FlMrVNI9rJKKHPE4sa63U',
+    position: 'Junior Software Developer',
+    techStack: [
+      'https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png',
+      'https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp',
+      'https://cdn.iconscout.com/icon/free/png-512/free-typescript-1-1175078.png?f=webp&w=256',
+      'https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256',
+      'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/microsoft-dot-net-icon.png',
+      'https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg',
+      'https://external-preview.redd.it/-YYoQ4Dt0Vnf3MebCZLt4qMD0uPlT9gtEyo1jutJMco.jpg?width=1080&crop=smart&auto=webp&s=b5524ffc9aa1d3eb273427961dd78f65038a8e3f',
+      
+    ],
+    tenure: 'Jan 2025 - Present',
+    description: [
+      'Developing software to streamline workflows for Graphic Operators during live sports broadcasting events. My work focuses on creating smooth, user-friendly UI/UX experiences, ensuring graphical overlays display accurate athlete information, and maintaining a bug-free application.',
+      'Skills: Languages (Python, C#, TypeScript), Frameworks (.NET, Reactjs, Nextjs), Libraries (Raylib, Tkinter), Others (VizRt, Sockets)',
+    ],
+  },
   // Circula
   {
     companyName: 'Circula',
     companyUrl: 'https://www.linkedin.com/company/circulaco/posts/?feedView=all',
-    companyIcon: 'https://media.licdn.com/dms/image/v2/D560BAQGoCfUzW7eWzw/company-logo_200_200/company-logo_200_200/0/1727828754030/circulaco_logo?e=1737590400&v=beta&t=xU-JDhUJrYeiMyzKLNSB7g5J_8yuacGaxUZ7gXfcQJI',
+    companyIcon: 'https://media.licdn.com/dms/image/v2/D560BAQGoCfUzW7eWzw/company-logo_200_200/company-logo_200_200/0/1727828754030/circulaco_logo?e=1747267200&v=beta&t=s8RJeVgULqkPLmrNYWkGFqWiDmTLk3NdE89y3g_Sxgs',
     position: 'Lead Front-End Developer',
     techStack: [
       'https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg',

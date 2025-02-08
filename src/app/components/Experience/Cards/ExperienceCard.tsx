@@ -10,7 +10,7 @@ type ExperienceCardProps = {
   position: string;
   tenure: string;
   description: string[];
-  summaryNotes: string[];
+  summaryNotes?: string[];
   techStack: string[];
 };
 
@@ -60,14 +60,14 @@ function ExperienceCard({ companyName, companyUrl, companyIcon, position, tenure
           ))}
         </ul>
 
-        <div className="py-5">
+        {summaryNotes && (<div className="py-5">
           <p className="py-1 uppercase text-gray-500">Personal Summary:</p>
           {summaryNotes.map((point, index) => (
             <p key={index} className='py-2 text-white'>
               {formatTextWithNewlines(point)}
             </p>
           ))}
-        </div>
+        </div>)}
       </div>
     </article>
   );

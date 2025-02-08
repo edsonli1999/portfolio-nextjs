@@ -201,6 +201,7 @@
 
 "use client"
 import { motion } from 'framer-motion'
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 
 type Props = {}
@@ -259,7 +260,7 @@ function About({ }: Props) {
                 </p>
 
                 <p className='text-base'>
-                  In my personal time, I enjoy bouldering, it being an on-going hobby of mine for 7 years now. I like to frequently go on runs and keep healthy. I also occasionally enjoy going to the pub, and even worked as a bartender during my university days.
+                  In my personal time, I enjoy bouldering, it being an on-going hobby of mine for 7 years now. I like to frequently go on runs and keep healthy. I also occasionally enjoy going to the pub, and even worked as a bartender during my university days. Feel free to check out my climbing <Link href="https://www.instagram.com/edson.climbs/" className="underline" target="_blank">instagram</Link>!
                 </p>
 
                 <p className='text-base'>
@@ -319,7 +320,7 @@ function About({ }: Props) {
                 </p>
 
                 <p className='text-base'>
-                  In my personal time, I enjoy bouldering, it being an on-going hobby of mine for 7 years now. I like to frequently go on runs and keep healthy. I also occasionally enjoy going to the pub, and even worked as a bartender during my university days.
+                  In my personal time, I enjoy bouldering, it being an on-going hobby of mine for 7 years now. I like to frequently go on runs and keep healthy. I also occasionally enjoy going to the pub, and even worked as a bartender during my university days. Feel free to check out my climbing <Link href="https://www.instagram.com/edson.climbs/" className="underline" target="_blank">instagram</Link>!
                 </p>
 
                 <p className='text-base'>

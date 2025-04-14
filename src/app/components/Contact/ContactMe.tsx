@@ -27,17 +27,17 @@ function ContactMe({}: Props) {
         <div className='space-y-10'>
           <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#1e95aa] h-7 w-7 animate-pulse'/>
-            <p> EdsonLi1999@gmail.com</p>
+            <p> johndoe@example.com</p>
           </div>
 
           <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#1e95aa] h-7 w-7 animate-pulse'/>
-            <p> 0403448823 </p>
+            <p> 555-123-4567 </p>
           </div>
 
           <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#1e95aa] h-7 w-7 animate-pulse'/>
-            <p>Melbourne VIC</p>
+            <p>New York, NY</p>
           </div>
         </div>
       

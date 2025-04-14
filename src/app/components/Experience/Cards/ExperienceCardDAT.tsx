@@ -8,7 +8,7 @@ type Props = {}
 
 function ExperienceCardDAT({ }: Props) {
 
-  let websiteLink = 'https://www.dataannotation.tech/about?'
+  let websiteLink = 'https://www.example.com/about'
 
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll z-10 scrollbar'>
@@ -24,7 +24,7 @@ function ExperienceCardDAT({ }: Props) {
 
       <div className='px-0 md:px-10'>
         <h4 className='text-2xl md:text-3xl lg:text-3xl font-light'> Software Developer - AI trainer (contract) </h4>
-        <p className='text-xl md:text-2xl lg:text-2xl font-bold mt-1'> <a href="https://www.dataannotation.tech/about?" target='_blank'>Data Annotation Technology</a></p>
+        <p className='text-xl md:text-2xl lg:text-2xl font-bold mt-1'> <a href="https://www.example.com/about" target='_blank'>Data Annotation Technology</a></p>
         <div className='flex space-x-2 my-2'>
           <img
             className='h-10 w-10 rounded-full'

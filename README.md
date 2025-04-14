@@ -1,35 +1,51 @@
+## Personal Portfolio Website
+
 ## Full TechStack
-NextJS, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
-
-## Deployable v3
-Changes/features added:
-- Shifted experience section above projects section
-- Added in experience at U-SWS
-- Updated About section
-- Other small bug fixes, file structure change
-
-## Deployable v2
-Changes/features added:
-- About, Projects, and Experience sections.  
-- Added quick link to contact page, and some other minor phrasing changes.  
-  
-(For personal use) Vercel inspection: https://vercel.com/edsonli1999/portfolio-nextjs-yarn/2JJeKq9PBtowgrgtrdCyX6J6rvXM.  
-Note: Not exactly compatible with smaller screens yet (such as mobile devices)
-
-## Deployable v1
-Old version of the website: https://portfolio-nextjs-yarn-j8vitldg6-edsonli1999.vercel.app/.    
-Features: 
-- Hero (homepage), animations, links, and contact me page (scroll down).  
+NextJS 13, TailwindCSS, ESLint, Framer Motion, Sanity.IO, Vercel
 
 ## Credits
 Sonny's youtube video (https://www.youtube.com/watch?v=urgi2iz9P6U) has helped me extremely on the development and process of this personal portfolio. Sonny's github (https://github.com/PapaReact)
 
-## CLI Commands
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Setup Instructions
 
-First, run the development server:
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [Yarn](https://yarnpkg.com/getting-started/install) package manager
 
+### Installation
+1. Clone the repository
+   ```bash
+   git clone [your-repository-url]
+   cd portfolio-nextjs-yarn
+   ```
+
+2. Install dependencies
+   ```bash
+   yarn install
+   ```
+
+3. Environment Setup (not necessary, only contains google analytics API key)
+   Create a `.env.local` file in the root directory with the following:
+   ```
+   NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=your_ga_id
+   ```
+
+## Running the Project
+
+### Development Server
 ```bash
 yarn dev
+```
+The site will be available at [http://localhost:3000](http://localhost:3000)
+
+### Production Build
+```bash
+yarn build
+yarn start
+```
+
+### Linting
+```bash
+yarn lint
 ```
 

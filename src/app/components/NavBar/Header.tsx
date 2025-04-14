@@ -17,13 +17,13 @@ function Header({}: Props) {
       className='flex flex-row items-center'>
         {/* Social Icons */}
         <SocialIcon 
-          url="https://www.linkedin.com/in/edson-li-387i/" 
+          url="https://www.linkedin.com/in/johndoe/" 
           fgColor='gray' 
           bgColor='transparent'
           target='_blank'
         />
         <SocialIcon 
-          url="https://github.com/edsonli1999" 
+          url="https://github.com/johndoe" 
           fgColor='gray' 
           bgColor='transparent'
           target='_blank'

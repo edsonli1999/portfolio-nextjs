@@ -23,7 +23,7 @@ function ProjectsPersonalWebsite({}: Props) {
           <span className='underline decoration-[#1e95aa]/50'> Personal portfolio website </span>  
         </h4>
         <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="#hero">Link to website</a></p>
-        <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="https://github.com/edsonli1999/portfolio-nextjs" target='_blank'>Link to github</a></p>
+        <p className='text-lg md:text-2xl lg:text-2xl font-light mt-1 text-center'> <a href="https://github.com/johndoe/portfolio-nextjs" target='_blank'>Link to github</a></p>
         
         <p className='space-y-4 ml-5 text-md p-5'>
           A personal portfolio website, which showcases my experience and skills related to technology. It also serves to show more about myself, including hobbies, interests, and lifestyle. Current technologies include NextJS, TypeScript, and Framer Motion. It is deployed on Vercel, with more technologies to be used in the future. For more details check out my github &#128578;.

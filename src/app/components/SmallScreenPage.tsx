@@ -1,7 +1,26 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Header from './NavBar/Header';
 import Hero from './Hero/Hero';
 import ContactMe from './Contact/ContactMe';
+
+const ThemeTeaser = () => {
+  const [mounted, setMounted] = useState(false);
+  
+  // Only render after component mounts on the client
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  
+  if (!mounted) return null;
+  
+  return (
+    <div className="fixed bottom-5 left-0 right-0 mx-auto w-max bg-gray-800 text-white text-xs px-4 py-2 rounded-full opacity-80 z-50">
+      <p>A more cinematic experience available on desktop! ;)</p>
+    </div>
+  );
+};
 
 const SmallScreenPage: React.FC = () => {
     return (
@@ -28,6 +47,8 @@ const SmallScreenPage: React.FC = () => {
                 <ContactMe />
             </section>
 
+            {/* Add desktop theme teaser */}
+            <ThemeTeaser />
         </div>
     );
 };

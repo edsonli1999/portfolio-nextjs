@@ -18,12 +18,6 @@ import SmallScreenPage from './components/SmallScreenPage'
 // TailwindCSS intellisense
 // ES7+ react extension
 
-// export const metadata: Metadata = {
-//   title: "Edson's Portfolio",
-//   authors: [{ name: "Edson Li", url: "https://edsons-portfolio-nextjs.vercel.app" }],
-//   keywords: ["Edson", "Portfolio", "Resume"]
-// }
-
 export default function Home() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 

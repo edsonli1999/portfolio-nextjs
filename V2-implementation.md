@@ -189,7 +189,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 function DetectiveHero() {
   const [text, count] = useTypewriter({
-    words: ["Case File: Edson Li", "Status: Active Investigation", "Clearance: Level 5"],
+    words: ["Case File: John Doe", "Status: Active Investigation", "Clearance: Level 5"],
     loop: true,
     delaySpeed: 2000,
   })

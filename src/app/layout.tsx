@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { ThemeProvider } from './context/ThemeContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,7 +22,11 @@ export default function RootLayout({
         <meta name="author" content="John Doe"></meta>
         <meta name="keywords" content="John Doe,Portfolio,Resume"></meta>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
       {googleAnalyticsId && <GoogleAnalytics gaId={googleAnalyticsId} />}
     </html>
   );

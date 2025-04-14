@@ -9,7 +9,7 @@ type Props = { isSmallScreen: boolean }
 
 function Hero({ isSmallScreen }: Props) {
   const [text, count] = useTypewriter({
-    words: ["Hi, my name’s Edson", "Loves-bouldering.tsx", "<ButLovesToCodeMore/>", "Allegedly;"],
+    words: ["Hi, my name’s John", "Loves-bouldering.tsx", "<ButLovesToCodeMore/>", "Allegedly;"],
     loop: true,
     delaySpeed: 2000,
   })

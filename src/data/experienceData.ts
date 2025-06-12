@@ -25,22 +25,28 @@ export const experienceData = [
   // Circula
   {
     companyName: 'Circula',
-    companyUrl: 'https://www.linkedin.com/company/circulaco/posts/?feedView=all',
-    companyIcon: 'https://media.licdn.com/dms/image/v2/D560BAQGoCfUzW7eWzw/company-logo_200_200/company-logo_200_200/0/1727828754030/circulaco_logo?e=1747267200&v=beta&t=s8RJeVgULqkPLmrNYWkGFqWiDmTLk3NdE89y3g_Sxgs',
-    position: 'Lead Front-End Developer',
+    companyUrl: 'https://www.circula.life',
+    companyIcon: 'https://media.licdn.com/dms/image/v2/D560BAQGoCfUzW7eWzw/company-logo_200_200/company-logo_200_200/0/1727828754030/circulaco_logo?e=1754524800&v=beta&t=o41vUDndQFqvi2jNJ9robEafpOiSSjgB9AM_POEt66E',
+    position: 'Founding Web Developer (Front-end, DevOps, QA/Testing)',
     techStack: [
       'https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg',
       'https://cdn.iconscout.com/icon/free/png-512/free-typescript-1-1175078.png?f=webp&w=256',
       'https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256',
       'https://cdn.iconscout.com/icon/free/png-512/free-firebase-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-3-pack-logos-icons-2944871.png?f=webp&w=256',
-      'https://cdn.iconscout.com/icon/free/png-512/free-kubernets-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-14-pack-icons-283489.png?f=webp&w=256'
+      'https://cdn.iconscout.com/icon/free/png-512/free-kubernets-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-14-pack-icons-283489.png?f=webp&w=256',
+      'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/2/playwright-y50bnthygb3rvsppvkm9e.png/playwright-q55xzpenhgjsodksybst.png?_a=DATAdtAAZAA0',
+      'https://avatars.githubusercontent.com/u/103283236?s=200&v=4'
     ],
     tenure: 'Jul 2024 - Present',
     description: [
-      'To view our app, go to this URL -> https://www.circula.life/sign-in. Accessible on both mobile and desktop.',
-      'Ongoing role at an early-stage startup, leading the development of an event-discovery web application for university students, scheduled for release to UniMelb students by early to mid next year.',
-      'Solely responsible for building the front-end in its initial stages, utilising the new Next.js app router to create a robust and user-friendly interface.',
-      'Skills: Web Development (Next JS, TypeScript, Tailwind CSS), Auth (Firebase), Google API (Maps, Places), Dev workflow (Slack, Git)',
+      'Landing page: https://www.circula.life',
+      'LinkedIn: https://www.linkedin.com/company/circulalife',
+      'Leading the development of an event-discovery web application for university students.',
+      'Solely responsible for building the front-end in its initial stages, using Next.js app router, TypeScript, and Tailwind CSS.',
+      'Expanded scope to backend development, contributing new API endpoints in the existing Python FastAPI backend.',
+      'Implemented Jest unit tests and Playwright E2E tests to reduce regressions and ensure long-term reliability.',
+      'Improved internal front-end workflows by building tools like a “devmode” feature, enabling development even when the backend server is down.',
+      'Skills: Web Development (Next JS, TypeScript), FastAPI (Python), Testing (Jest, Playwright), DevOps (DX)',
     ],
     summaryNotes: [
       "I was first approached by Mia, the founder, whilst doing some of my programming work at the bouldering gym",
@@ -82,7 +88,7 @@ export const experienceData = [
       "Due to signing an NDA, I can't give too detailed of a summary unfortunately.",
       'In summary, I am training AI models by testing responses given by various LLMs (language learning models), mostly relating to code. These could be anything from simple python `hello world` programs, to slightly less-simple react and nextjs applications.',
       'As such, I am constantly refreshing my memory on these technologies, as well as consistently learning new ones.',
-      'Due to being fully remote, as well as allowing myself to dictate my own work hours, I am massively grateful to be given this opportunity to fully explore my passions and hobbies in my spare time. Some of these include helping out with a social media application for the University of Melbourne as an Alumni, as well as upskilling myself and studying for my AWS Associate Solutions Architect certification.'
+      'Being fully remote and able to set my own hours, I’m incredibly grateful for the opportunity to explore my passions and hobbies in my spare time. These include regularly contributing to a startup I’m involved in (Circula) and upskilling through study towards my AWS Associate Solutions Architect certification.'
     ],
   },
   // Universal Software Solutions

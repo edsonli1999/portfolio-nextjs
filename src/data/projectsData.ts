@@ -1,6 +1,15 @@
 export const projectsData = [
   // Array of project objects
   {
+    name: "Edson's Utilities",
+    imageSrc: 'https://static.vecteezy.com/system/resources/previews/040/458/983/non_2x/gear-icon-cogwheel-sign-cogwheel-symbol-resources-graphic-element-design-illustration-with-an-industrial-and-technology-theme-vector.jpg',
+    websiteLink: 'https://edsons-utilities.vercel.app',
+    githubLink: 'https://github.com/edsonli1999/oz-flip-app',
+    technology: ['React', 'Javascript', 'Tailwind CSS', 'Vercel'],
+    description:
+      'Some random utilities that I often find myself using, including a currency converter, a UNIX Timestamp to AEST Converter, and various other useful calculators. The design for this app also serves as a canvas for me to experiment with glassmorphism in React!',
+  },
+  {
     name: 'Utility-Times',
     imageSrc: 'utimes-transparent.png',
     websiteLink: 'https://shitimes.vercel.app/login',

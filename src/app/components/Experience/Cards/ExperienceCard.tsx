@@ -10,11 +10,12 @@ type ExperienceCardProps = {
   position: string;
   tenure: string;
   description: string[];
+  sections?: { subtitle: string; points: string[] }[];
   summaryNotes?: string[];
   techStack: string[];
 };
 
-function ExperienceCard({ companyName, companyUrl, companyIcon, position, tenure, description, summaryNotes, techStack }: ExperienceCardProps) {
+function ExperienceCard({ companyName, companyUrl, companyIcon, position, tenure, description, sections, summaryNotes, techStack }: ExperienceCardProps) {
   const formatTextWithNewlines = (text: string) => {
     return text.split('\n').map((line, index) => (
       <React.Fragment key={index}>
@@ -54,6 +55,19 @@ function ExperienceCard({ companyName, companyUrl, companyIcon, position, tenure
           ))}
         </div>
         <p className='uppercase py-4 text-gray-300'>{tenure}</p>
+
+        {/* Optional subtitled sections, rendered before the main description */}
+        {sections && sections.map((section, index) => (
+          <div key={index} className="pb-6">
+            <p className="text-lg font-semibold text-gray-300 pb-3">{section.subtitle}</p>
+            <ul className="list-disc space-y-4 ml-5 text-md text-white">
+              {section.points.map((point, pointIndex) => (
+                <li key={pointIndex}>{point}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+
         <ul className="list-disc space-y-4 ml-5 text-md text-white">
           {description.map((desc, index) => (
             <li key={index}>{desc}</li>

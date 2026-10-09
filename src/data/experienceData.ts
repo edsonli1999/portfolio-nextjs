@@ -1,5 +1,50 @@
 // Array of experience data
 export const experienceData = [
+  // IBM
+  {
+    companyName: 'IBM',
+    companyUrl: 'https://www.ibm.com/consulting',
+    companyIcon: 'https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1793232000&v=beta&t=jJSjBu2tGbKPlQgySoDHtFCql-GGdVMTyOVhu8iDG_M',
+    position: 'Tech Consultant | Associate Infrastructure Specialist',
+    techStack: [
+      'https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original',
+      'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
+      'https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
+    ],
+    tenure: 'Jan 2026 - Present',
+    sections: [
+      {
+        subtitle: 'DSO Engineer · Jul 2026 – Present',
+        points: [
+          "Embedded in at a client's (Singapore Government Defence Tech Company) DevSecOps team, delivering a secure data-sharing platform that is nearing go-live.",
+          'Deployed IBM API Connect on Red Hat OpenShift across 3 air-gapped environments, applying each component at the YAML level: namespaces, network policies, operator subscriptions, image mirror config and subsystem custom resources.',
+          'Organised the deployment YAMLs into a phased directory structure and wrote a Bash script for each phase, turning an ad hoc process into a repeatable, documented one.',
+          'Documented the full deployment, including the manual UI steps needed to connect the API Connect subsystems.',
+          'Scanned container images with Trivy before they went into the air-gapped environment, and passed the reports on for vulnerability review.',
+          'Applied AWS CloudFormation change sets to infrastructure stacks, and am currently tightening network access controls as part of security hardening.',
+        ],
+      },
+      {
+        subtitle: 'Ad hoc engagements · Jan – Jun 2026',
+        points: [
+          'Supported short engagements for clients in the healthcare and infrastructure sectors through Python scripting and technical documentation.',
+          "Learned to pick up project context quickly and turn large, messy contexts into clear, structured documentation.",
+        ],
+      },
+    ],
+    description: [
+      'Skills: Platform (Red Hat OpenShift, Kubernetes), IBM (API Connect, Software Hub), AWS (CloudFormation, Elastic Load Balancing, Route 53), Scripting (Bash, Python), Security (Trivy)',
+    ],
+    summaryNotes: [
+      "I joined IBM Consulting in Singapore in late January 2026. My first few months were a mix of short ad hoc pieces of work: some Python scripting, and a lot of documentation. The biggest skill I picked up was learning a project's context quickly, and turning large, messy contexts into clear, structured documents.",
+      "In July I was onboarded onto my current project as a DevSecOps engineer. In practice it's closer to being a forward deployed engineer at the infrastructure level. The first few weeks were spent learning how to bring our COTS products into an air-gapped environment: downloading them, scanning the images with Trivy, and getting them ready to transfer across.",
+      "From there I moved onto OpenShift, deploying IBM API Connect. Its installation is quite barebones, so every resource is applied individually at the YAML level. The earlier deployments had been done under a lot of time pressure, so while shadowing one I organised the YAMLs into phases and documented everything, including a few manual UI steps that aren't obvious. I also wrote Bash scripts for each phase. Honestly, they're as much documentation as automation, and they mostly exist to make my own life easier.",
+      "The part that has stuck with me most came during security hardening. Our first attempt at restricting network access broke the application, because of a certificate it didn't recognise. Working out why meant tracing how our hostnames were resolved and which load balancer each request actually went through. That's when networking and certificates stopped being abstract concepts I had no interest in. I still don't fully understand them, but watching them change in real time has genuinely sparked an interest.",
+      "Next on my list is the AWS Solutions Architect Associate certification, once this project wraps up.",
+    ],
+  },
   // Girraphic
   // {
   //   companyName: 'Girraphic',

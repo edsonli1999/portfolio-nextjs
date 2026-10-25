@@ -17,7 +17,7 @@ function Header({}: Props) {
       className='flex flex-row items-center'>
         {/* Social Icons */}
         <SocialIcon 
-          url="https://www.linkedin.com/in/edson-li-387i/" 
+          url="https://www.linkedin.com/in/edsonli/" 
           fgColor='gray' 
           bgColor='transparent'
           target='_blank'
